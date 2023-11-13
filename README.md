@@ -3,7 +3,7 @@
     <strong>Book Hive REST API</strong>
   </h1>
   <p>
-    Book Hive is a RESTful API built using Python Django, designed to manage a virtual bookstore.
+    Book Hive is a RESTful API built using Laravel, designed to manage a virtual bookstore.
   </p>
 </div>
 
@@ -24,18 +24,6 @@ Follow the instructions below to set up and run the Book Hive REST API locally o
 ```bash
 git clone https://github.com/moobi-kabelo/book-hive.git
 ```
-
-The Book Hive REST API should now be up and running on `http://localhost:8080`.
-
-## API Endpoints
-
-The following are the available API endpoints:
-
-- `GET /v1/books`: Get a list of all books.
-- `GET /v1/books/{id}`: Get book details by ID.
-- `POST /v1/books`: Add a new book to the collection.
-- `PUT /v1/books/{id}`: Update book details by ID.
-- `DELETE /v1/books/{id}`: Delete a book from the collection by ID.
 
 ## Contributing
 
